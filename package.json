@@ -1,21 +1,21 @@
 {
-    "name": "language-ats-temptory",
-    "displayName": "ATS-Temptory",
-    "description": "ATS-Temptory language support",
+    "name": "language-ats2",
+    "displayName": "vscode ATS2",
+    "description": "ATS2 language support",
     "version": "0.0.2",
-    "publisher": "sparverius",
+    "publisher": "chantisnake",
     "engines": {
         "vscode": "^1.19.0"
     },
-    "license": "SEE LICENSE IN LICENSE",
-    "homepage": "https://github.com/sparverius/ats-vscode",
+    "license": "MIT",
+    "homepage": "https://github.com/chantisnake/vscode-ats2",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sparverius/ats-vscode.git"
+        "url": "https://github.com/chantisnake/vscode-ats2.git"
     },
     "icon": "images/ATS-Logo.png",
     "categories": [
-        "Languages"
+        "Programming Languages"
     ],
     "contributes": {
         "languages": [
