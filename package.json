@@ -24,7 +24,10 @@
                 "aliases": [
                     "ATS",
                     "ats",
-		    "temptory"
+                    "ats2",
+                    "ATS2",
+                    "ats-lang",
+                    "ATS-Postiats"
                 ],
                 "extensions": [
                     ".dats",
@@ -41,5 +44,18 @@
                 "path": "./syntaxes/ats.tmLanguage"
             }
         ]
+    },
+    "main": "./out/extension.js",
+    "scripts": {
+        "vscode:prepublish": "npm run compile",
+        "compile": "tsc -p ./",
+        "lint": "tslint -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/node": "^7.0.43",
+        "tslint": "^5.16.0",
+        "typescript": "^3.5.1",
+        "@types/vscode": "^1.32.0"
     }
 }
